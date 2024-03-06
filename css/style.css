@@ -836,8 +836,10 @@ ul.portfolio-categ li a{
 	color: #14A085;
 }
 ul.portfolio-categ li.active{
-border: 1px solid #D7D8D6;
-background-color: #EAEAEA;
+
+border: 1px solid #D7D8D6;
+
+background-color: #EAEAEA;
 }
 ul.portfolio-categ li.active a:hover, ul.portfolio-categ li a:hover,ul.portfolio-categ li a:focus,ul.portfolio-categ li a:active {
 	text-decoration:none;
@@ -1426,6 +1428,17 @@ a.scrollup i:hover {
 .aligncenter span{
 	margin-left:0;
 }
+
+.aligncenter ul {
+	list-style-position: outside;
+	padding-left: 0;
+	text-align: left;
+}
+
+.aligncenter li {
+	display: list-item;
+	text-align: left;
+	margin-bottom: 5px; /* Adjust as needed */
 
 .floatright {
 	float:right;
