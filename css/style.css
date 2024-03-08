@@ -261,6 +261,11 @@ ul.link-list li{
 	padding:2px 0 2px 0;
 	list-style:none;
 }
+
+/* Add custom CSS for spacing */
+   .submission-list {
+	margin-top: 10px; /* Adjust the margin-top value as needed */
+}
 footer{
 background: #14A085;
 }
